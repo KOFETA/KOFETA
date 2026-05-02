@@ -1,0 +1,106 @@
+.category{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+
+    &__header{
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+        
+
+        &-title{
+            font-size: 32px;
+            margin: 0;
+            color: var(--main-color);
+            align-self: center;
+        }
+
+        &-volume{
+            display: flex;
+            margin: 5px 0 0 0;
+            justify-content: center;
+            align-items: center;
+            color: var(--main-color);
+            
+            
+            &-item{
+                display: inline-flex;
+                align-items: center;
+                font-size: 20px;
+                
+            }
+
+            &-separator{
+                width: 2px;
+                background:var(--main-color);
+                margin: 0 6px;
+                align-self: stretch;
+            }
+
+            &-unit{
+                font-size: 20px;
+                margin-left: 4px;
+            }
+        }
+    }
+    &__body{
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0 0 0;
+        row-gap: 30px;
+        
+        &-separator{
+            height: 2px;
+            width: 100%;
+            display: block;
+            align-self: stretch;
+            background:var(--arrow-color);
+            
+        }
+    }
+}
+
+.cold{
+    .category{
+        &__header{
+            &-title{
+                font-size: 32px;
+                margin: 0;
+                color: var(--arrow-color);
+            }
+            &-volume{
+                color: var(--arrow-color);
+                &-separator{
+                width: 2px;
+                background:var(--arrow-color);
+                margin: 0 6px;
+                align-self: stretch;
+                }   
+            }   
+        }
+
+        
+    }
+}
+
+@media (min-width: 320px) and (max-width: 400px){
+    .cold{
+        .category{
+            &__header{
+                &-title{
+                    font-size: 26px;
+                }
+            }
+        }
+    }
+    .category{
+            &__header{
+                &-title{
+                    font-size: 26px;
+                }
+            }
+    }
+}
