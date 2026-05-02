@@ -8,8 +8,8 @@ export default function Hero(){
             <img src = {logo} alt = 'Логотип' className='hero__logo'/>
             <h2 className='hero__text'>Кофе, чай, холодные напитки и десерты<br/>на набережной Алушты.</h2>
             <a className='hero__phone'
-            href = 'tel:+79789918741'>
-                +7 (978) 503 40 50
+            href = 'tel:+79785034050'>
+                Обратная связь
             </a>
             <a className='hero__button' href='#catalog'>
                 <p className='hero__button-text'>Меню</p>
