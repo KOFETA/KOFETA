@@ -47,7 +47,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 932px;
   }
   .hero__logo {
     margin-top: 262px;
