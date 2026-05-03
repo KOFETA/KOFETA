@@ -21,7 +21,7 @@ function Card({product}){
                     {(product.category !== 'cold-drinks') && (product.category !== 'desserts')?<p className='card__priceTagBox-priceTag-volume'>{el.volume}мл</p>: null}
                     {product.category === 'desserts'? <p className='card__priceTagBox-priceTag-volume'>{el.volume}шт</p>: null}
                     <p className='card__priceTagBox-priceTag-price'>{el.price}р</p>
-                    {(product.category === 'cold-drinks') && (index !== product.price.length - 1)?<span className='card__priceTagBox-priceTag-separator'></span> : null }
+                    {(product.category === 'cold-drinks') && (index !== product.price.length - 1) && (product.image)?<span className='card__priceTagBox-priceTag-separator'></span> : null }
                 </div>
             ))}
             </div>

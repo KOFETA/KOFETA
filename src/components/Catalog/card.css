@@ -27,12 +27,11 @@
   gap: 10px;
 }
 .card_without-image .card__priceTagBox-priceTag {
-  margin: 0;
   display: flex;
   flex-direction: row;
+  align-self: flex-end;
   gap: 10px;
   align-items: end;
-  justify-content: space-between;
 }
 .card_without-image .card__priceTagBox-priceTag-volume {
   margin: 0;
@@ -102,7 +101,7 @@
   width: 2px;
   align-self: stretch;
   background: var(--arrow-color);
-  margin: 0 6;
+  margin: 0 6px;
 }
 
 .cold .card_with-image .card__titleBlock-title {
@@ -159,16 +158,36 @@
 }
 
 @media (min-width: 320px) and (max-width: 400px) {
-  .card_without-image {
+  .cold .card_without-image {
     padding: 0 10px;
   }
-  .card_without-image .card__titleBlock-title {
+  .cold .card_without-image .card__titleBlock-title {
     font-size: 20px;
   }
   .card_with-image {
     padding: 10px 15px;
   }
   .card_with-image .card__titleBlock-title {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1400px) {
+  .card_without-image {
+    padding: 0 30px;
+  }
+  .card_without-image .card__titleBlock-title {
+    font-size: 20px;
+  }
+  .card_with-image {
+    padding: 30px 30px;
+  }
+  .card_with-image .card__titleBlock-title {
+    font-size: 20px;
+  }
+  .cold .card_without-image {
+    padding: 0 30px;
+  }
+  .cold .card_without-image .card__titleBlock-title {
     font-size: 20px;
   }
 }/*# sourceMappingURL=card.css.map */
