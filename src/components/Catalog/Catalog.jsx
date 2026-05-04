@@ -6,7 +6,7 @@ import categories from '../../assets/menu.json'
 
 function Card({product}){
     const imageSrc = product.image
-        ? new URL(`../../assets/menu_images/${product.image}`, import.meta.url).href
+        ? new URL(`../../assets/photos/${product.image}`, import.meta.url).href
         : null
     return(        
         <article className={'card ' + (product.isCold? "cold " : '') + (product.image? 'card_with-image' : 'card_without-image')}>

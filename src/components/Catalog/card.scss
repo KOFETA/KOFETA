@@ -58,7 +58,7 @@
     display: grid;
     height: 200px;
     padding: 20px 20px;
-    grid-template-columns: 102px 1fr;
+    grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr 27px;
     grid-template-areas: 
     "image title"
@@ -67,7 +67,7 @@
     .card{
         &__image{
             grid-area: image;
-            height: 148px;
+            height: 170px;
             align-self: center;
         }
         &__titleBlock{
@@ -225,9 +225,15 @@
     .card_with-image{
         padding: 10px 15px;
         .card{
+            &__image{
+                height: 130px;
+            }
             &__titleBlock{
                 &-title{
-                    font-size: 20px;
+                    font-size: 18px;
+                }
+                &-description{
+                    font-size: 12px;
                 }
             }
         }
@@ -245,17 +251,22 @@
             }
         }
     }
-
+    .cold{
     .card_with-image{
-        padding: 30px 30px;
-        .card{
-            &__titleBlock{
-                &-title{
-                    font-size: 20px;
+            padding: 30px 30px;
+            .card{
+                &__image{
+                    height: 130px;
+                }
+                &__titleBlock{
+                    &-title{
+                        font-size: 20px;
+                    }
                 }
             }
         }
     }
+    
     .cold{
     .card_without-image{
         padding: 0 30px;

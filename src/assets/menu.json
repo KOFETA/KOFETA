@@ -10,7 +10,7 @@
           "id": "001",
           "title": "ЛИМОНАД ВИШНЯ",
           "description": "Сочный вишневый лимонад с мягкой кислинкой и освежающим послевкусием",
-          "image": "",
+          "image": "cherry-lemonade.png",
           "category": "cold-drinks",
           "price": [
             { "volume": "300", "price": 300 },
@@ -22,7 +22,7 @@
           "id": "002",
           "title": "ЦИТРУСОВЫЙ ЛИМОНАД",
           "description": "Легкий лимонад с яркими цитрусовыми нотами и приятной свежестью",
-          "image": "",
+          "image": "lemonade.png",
           "category": "cold-drinks",
           "price": [
             { "volume": "300", "price": 300 },
@@ -34,7 +34,7 @@
           "id": "004",
           "title": "ЛИМОНАД МАНГО-МАРАКУЙЯ",
           "description": "Тропический лимонад с мягким вкусом манго и легкой кислинкой маракуйи",
-          "image": "",
+          "image": "tropic.png",
           "category": "cold-drinks",
           "price": [
             { "volume": "300", "price": 300 },
@@ -46,7 +46,7 @@
           "id": "003",
           "title": "МЯТНАЯ СМОРОДИНА",
           "description": "Освежающий напиток с насыщенной смородиной и прохладной мятной нотой",
-          "image": "",
+          "image": "mint-currant.png",
           "category": "cold-drinks",
           "price": [
             { "volume": "300", "price": 300 },
@@ -58,7 +58,7 @@
           "id": "007",
           "title": "МОХИТО",
           "description": "Классическое сочетание лайма и мяты для свежего, легкого вкуса",
-          "image": "",
+          "image": "mohito.png",
           "category": "cold-drinks",
           "price": [
             { "volume": "300", "price": 300 },
@@ -70,7 +70,7 @@
           "id": "006",
           "title": "МАДАГАСКАР",
           "description": "Экзотический холодный напиток с мягкой сладостью и освежающим вкусом",
-          "image": "",
+          "image": "madagaskar.png",
           "category": "cold-drinks",
           "price": [
             { "volume": "300", "price": 300 },
@@ -80,9 +80,21 @@
         },
         {
           "id": "008",
-          "title": "МАТЧА ТОНИК/ОРАНЖ",
-          "description": "Холодая матча на основе тоника/апельсинового сока",
-          "image": "",
+          "title": "МАТЧА ТОНИК",
+          "description": "Холодная матча на основе тоника",
+          "image": "matcha-tonic.png",
+          "category": "cold-drinks",
+          "price": [
+            { "volume": "300", "price": 300 },
+            { "volume": "500", "price": 350 }
+          ],
+          "isCold": true
+        },
+        {
+          "id": "015",
+          "title": "МАТЧА ОРАНЖ",
+          "description": "Холодная матча на основе апельсинового сока",
+          "image": "matcha-orange.png",
           "category": "cold-drinks",
           "price": [
             { "volume": "300", "price": 300 },
@@ -94,7 +106,7 @@
           "id": "009",
           "title": "МАТЧА ЛАТТЕ ХОЛОДНЫЙ",
           "description": "Холодный матча латте зеленая/голубая",
-          "image": "",
+          "image": "ice-matcha.png",
           "category": "cold-drinks",
           "price": [
             { "volume": "300", "price": 300 },
@@ -106,7 +118,7 @@
           "id": "010",
           "title": "ХОЛОДНЫЙ КАКАО",
           "description": "Шоколадный напиток со льдом: мягкий, освежающий и не приторный",
-          "image": "",
+          "image": "ice-kakao.png",
           "category": "cold-drinks",
           "price": [
             { "volume": "300", "price": 300 },
@@ -118,7 +130,7 @@
           "id": "011",
           "title": "ТАЙСКИЙ ХОЛОДНЫЙ КОФЕ",
           "description": "Холодный кофе со сгущённым молоком по тайскому рецепту",
-          "image": "",
+          "image": "taiskiy.png",
           "category": "cold-drinks",
           "price": [
             { "volume": "300", "price": 300 },
@@ -130,7 +142,7 @@
           "id": "013",
           "title": "ХОЛОДНЫЙ ЛАТТЕ",
           "description": "Холодный латте с сиропом на выбор и шапочкой из взбитых сливок",
-          "image": "",
+          "image": "ice-latte.png",
           "category": "cold-drinks",
           "price": [
             { "volume": "300", "price": 300 },
@@ -152,8 +164,20 @@
         },
         {
           "id": "005",
-          "title": "ХОРНЕТ АПЕЛЬСИН/ВИШНЯ",
-          "description": "Холодный кофе на основе сока апельсина/вишни",
+          "title": "ХОРНЕТ АПЕЛЬСИН",
+          "description": "Холодный кофе на основе апельсинового сока",
+          "image": "hornet.png",
+          "category": "cold-drinks",
+          "price": [
+            { "volume": "300", "price": 300 },
+            { "volume": "500", "price": 350 }
+          ],
+          "isCold": true
+        },
+        {
+          "id": "016",
+          "title": "ХОРНЕТ ВИШНЯ",
+          "description": "Холодный кофе на основе вишневого сока",
           "image": "",
           "category": "cold-drinks",
           "price": [
